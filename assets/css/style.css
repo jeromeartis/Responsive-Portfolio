@@ -1,0 +1,500 @@
+/* * {
+  box-sizing: border-box;
+  border-radius: 5px;
+} */
+header {
+  margin-top: 60px;
+  border-radius: 10px;
+}
+
+h1 {
+  //padding-bottom: 10px;
+ //margin-top: 60px;
+
+}
+
+/* Highlight Header */
+span {
+  background-color: skyblue;
+  padding: 7px;
+  padding-bottom: 0px;
+  font-size: 48px;
+  margin-left: 480px;
+  margin-right: 520px;
+  color: white;
+  text-shadow: 3px 5px black;
+  border-radius: 5px;
+}
+
+/* Overlay page */
+body {
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+/* About Me */
+h2 {
+  padding: 5px;
+  margin-top: 10px;
+  margin-left: 230px;
+  font-size: 44px;
+  color: skyblue;
+  font-weight: bolder;
+  text-shadow: 2px 4px black;
+  padding-top: 20px;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+}
+h3 {
+  padding: 5px;
+  margin-top: 10px;
+  margin-left: 80px;
+  font-size: 44px;
+  color: skyblue;
+  font-weight: bolder;
+  text-shadow: 2px 4px black;
+  padding-top: 20px;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+}
+h4 {
+  padding: 5px;
+  margin-top: 0px;
+  margin-left: 80px;
+  font-size: 44px;
+  color: skyblue;
+  font-weight: bolder;
+  text-shadow: 2px 4px black;
+  padding-top: 0px;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+}
+h5{
+  font-size: Large;
+  //padding-left: 20px;
+}
+a {
+  text-decoration-color: black;
+  font-size: 10px;
+
+}
+li {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+button :hover {
+  padding: 7px;
+  color: skyblue;
+}
+
+.button {
+  font: bold 11px Arial;
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: #333333;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+  border-radius: 10px ;
+}
+.button:hover {
+  background-color: skyblue;
+}
+
+
+.bottom {
+
+  background: grey;
+  margin-top: 90px;
+  width: 100%;
+  padding: 30px;
+  text-align: center;
+  border-top: 10px solid skyblue;
+
+}
+
+.background-container {
+  background-color: #f0f0f0;
+  width: 75%;
+  height: 680px;
+  margin-left: 100px;
+  border: 2px solid gray;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.container {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  height: 500px;
+  //border: 3px solid gray;
+  background-color: white
+  overflow:auto;
+
+}
+ #text-body1, #text-body2 {
+
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  margin-left: 220px;
+  font-size:18px;
+}
+
+/* section {
+
+ //padding-top:10px;
+ //padding-left:20px;
+
+} */
+/* Contact HTML Sheet
+---------------------------------------------------------------------------*/
+
+/* .bottom-footer {
+  margin-left: 150px;
+  background-color: skyblue;
+  padding-bottom: 10px;
+  margin-bottom: auto;
+  width: 61%;
+} */
+
+.header-line {
+  width: 900px;
+  position: absolute;
+  right: 500px;
+  border-bottom: 1px solid gray;
+  margin-bottom: 70px;
+  margin-top: 50px;
+}
+
+.bottom-contact {
+  margin-left: 150px;
+  background: grey;
+  width: 61%;
+  padding: 20px 10px;
+  text-align: center;
+}
+.bottom1 {
+
+  background: grey;
+  margin-top: 60px;
+  width: 100%;
+  padding: 30px;
+  text-align: center;
+  border-top: 10px solid skyblue;
+}
+.form-fullname {
+  padding: 20px;
+  left: 40px;
+}
+
+.form-email {
+  padding: 20px;
+  left: 40px;
+}
+
+.form-message {
+  padding: 20px;
+  left: 20px;
+  padding-bottom: 40px;
+}
+
+.submit-btn {
+  padding: 15px;
+  left: 80px;
+  position: relative;
+  background-color: skyblue;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-weight: bold;
+  margin-left: 340px;
+}
+
+.submit-btn:hover {
+  background-color: lightgreen;
+}
+
+#fullname {
+  width: 90%;
+  height: 40px;
+}
+
+#email {
+  width: 90%;
+  height: 40px;
+}
+
+textarea {
+  resize: none;
+  width: 90%;
+  height: 150px;
+}
+
+.contact_body {
+  width: 980px;
+  height: 650px;
+  padding-top: 50px;
+  margin-left: 25px;
+  margin: 0 auto;
+  background: #f0f0f0;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  //left: 150px;
+}
+
+/* Profolio HTML page
+---------------------------------------------------------------------------*/
+/* <hr class = "striped-border"> adds grey line diving Title */
+
+.fname,.email,.message{
+  margin-left: 400px;
+}
+.striped-border {
+  margin-left: 0px;
+  background-color: gray;
+  padding-bottom: 1px;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+.header-line2 {
+  width: 950px;
+  position: relative;
+  left: 20px;
+  border-bottom: 1px solid gray;
+  //margin-bottom: 30px;
+}
+.bottom2 {
+
+  background: grey;
+  margin-top: 60px;
+  width: 100%;
+  padding: 30px;
+  text-align: center;
+  border-top: 10px solid skyblue;
+}
+.ny {
+  padding: 10px;
+  background-color: black;
+  position: absolute;
+  left: 500px;
+  border: 1px solid black;
+}
+.ny:hover{
+  transition: all 1s;
+  border-radius: 100pt;
+}
+
+.higgins {
+  padding: 10px;
+  background-color: black;
+  position: absolute;
+  right: 580px;
+  border: 1px solid black;
+}
+.higgins:hover {
+  transition: all 1s;
+  border-radius: 100pt;
+}
+.family {
+  padding: 10px;
+  background-color: black;
+  left: 500px;
+  position: absolute;
+  bottom: 230px;
+  border: 1px solid black;
+}
+
+.family:hover {
+  transition: all 1s;
+  border-radius: 100pt;
+}
+
+.GE_Digital {
+  padding: 10px;
+  background-color: black;
+  position: absolute;
+  bottom: 230px;
+  right: 580px;
+  border: 1px solid black;
+}
+.GE_Digital:hover {
+  transition: all 1s;
+  border-radius: 100pt;
+}
+.portfolio-container {
+  width: 980px;
+  height: 650px;
+  padding-top: 50px;
+  margin-left: 25px;
+  margin: 0 auto;
+  background: #f0f0f0;
+  border-radius: 10px;
+  margin-bottom: 50px;
+
+}
+/*  Media Query */
+
+@media screen and (max-width: 1920px){
+  #btn-group {
+  float:right;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  #btn-group1 {
+    float:right;
+
+  }
+  .bottom {
+    position: fixed;
+    bottom: 0px;
+  }
+  .background-container {
+    overflow: auto;
+    width: 75%;
+    height: 650px;
+  }
+  .text-body {
+    margin-bottom: 80px;
+    float: left
+    overflow: auto;
+  }
+  .container {
+    position: relative;
+    float: left;
+  }
+
+  span {
+    margin-left: 80px;
+    float: left;
+  }
+  .container-image {
+    display:block;
+            float:none;
+            margin:0 auto 20px !important;
+  }
+  .contact_body {
+    width: 100%;
+    height: 650px;
+    overflow: auto;
+  }
+  .bottom2 {
+    margin-top: 60px;
+    width: 100%;
+    padding: 30px;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  h2 {
+    margin-left: 60px;
+  }
+  #text-body1, #text-body2 {
+
+    float: left;
+    text-align: left;
+    overflow: auto;
+    margin-left: 10px;
+
+  }
+  #btn-group1 {
+  margin-top: -50px;
+  }
+
+  .container  {
+    width:100%;
+    height: auto;
+    overflow: auto;
+  }
+  .contact_body {
+    width: 100%;
+    height: 450px;
+    overflow: auto;
+  }
+  .form-message {
+    width: 100%;
+    height: 200px;
+    overflow: auto;
+  }
+  .form-submit {
+    margin-bottom: 500px;
+  }
+  .bottom1 {
+
+    margin-top: 60px;
+    width: 100%;
+    padding: 30px;
+  }
+  .higgins {
+    position: relative;
+    top: 30px;
+    left: -320px;
+  }
+  .GE_Digital {
+    position: relative;
+    bottom: -60px;
+    left: -130px
+  }
+  .ny{
+    position: relative;
+    top: 300px;
+    left: 30px;
+  }
+  .family {
+    postion: relative;
+    bottom: 120px;
+    left: 450px;
+  }
+  .bottom2 {
+    margin-top: -50px;
+    ;
+  }
+}
+
+
+
+@media screen and (max-width: 680px) {
+  .span {
+    margin-left: 20px
+  }
+
+  .text-body {
+    float:left;
+    overflow: auto;
+  }
+  #btn-group {
+  float: left;
+  }
+  .higgins {
+    position: relative;
+    bottom: 20px
+  }
+  .GE_Digital {
+    position: absolute;
+    bottom: 140px;
+
+
+  }
+  .ny {
+    position: absolute;
+    bottom:200px;
+    left: 300px;
+
+  }
+  .family {
+    position: absolute;
+    left: 300px;
+    bottom: 140px;
+
+  }
+  .portfolio-container {
+    width: 100%;
+    height: 600px;
+    overflow:auto;
+  }
+  .bottom2 {
+    margin-top: -30px
+  }
+}
